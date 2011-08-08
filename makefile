@@ -1,9 +1,9 @@
 ###
-# StyduAlgor Makefile
+# My Study Makefile
 #
 
 CC       = g++
-CINCS    = -Iinclude -Itest
+CINCS    = -Iinclude 
 DEFS     = -DBZ_NO_STDIO -D_FILE_OFFSET_BITS=64 -DDEBUG -D_POSIX_C_SOURCE=2
 DEFS    += -DHAVE_GDB
 CFLAGS   = -std=c99 -pedantic -Wall -Wextra $(CINCS) -g -fno-common $(DEFS)
